@@ -267,3 +267,29 @@
   margin-top: 20px;
 }
 /* footer ends */
+
+.remarks {
+  list-style: none;
+  text-decoration: none;
+  background-color: #1fb5f0;
+  width: 100%;
+  height: 400px;
+  margin-top: 100px;
+}
+.remarks h1 {
+  padding-left: 550px;
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: 800;
+  color: #444343;
+}
+.remarks_des ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  justify-content: space-around;
+  margin-top: 80px;
+}
