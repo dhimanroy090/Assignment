@@ -3,6 +3,33 @@
   padding: 0;
   font-family: "Work Sans", sans-serif;
 }
+/* navigation styling */
+
+.nav_bar {
+  background-color: rgb(17, 187, 230);
+  overflow: hidden;
+}
+
+.nav_bar a {
+  float: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  float: left;
+  justify-content: center;
+}
+
+/* color change after hover */
+.nav_bar a:hover {
+  background-color: rgb(255, 91, 42);
+  color: rgb(255, 255, 255);
+}
+
+/* Navigation ends here */
+
+/* Banner starts */
 .header-part {
   background-image: url("../images/banner/banner1.png");
   background-size: cover;
@@ -38,14 +65,15 @@
   width: 120px;
   height: 50px;
   right: 200px;
-  top: 445px;
+  top: 490px;
   background: #f05a1f;
   border-radius: 5px;
   border: none;
   font-size: 17px;
 }
+/* Banner ends */
 
-/* header part2 */
+/*   main person starts */
 .person-container {
   background-position: center;
   position: absolute;
@@ -96,8 +124,9 @@
   font-size: 15px;
   font-style: normal;
 }
+/* person ends */
 
-/* Plans styling */
+/* Plans styling starts */
 
 .plans h1 {
   text-align: center;
@@ -112,8 +141,6 @@
   padding-top: 5px;
   padding-left: 60px;
   padding-right: 60px;
-  /* width: 1000px;
-  height: 299.96px; */
 }
 
 .plan-container .web {
@@ -167,25 +194,7 @@
   letter-spacing: 0.1em;
 }
 
-/* Gradient starts here */
-/* .grad1 .watch {
-  width: 1140px;
-  height: 300px;
-  left: 230px;
-
-  background-image: linear-gradient(
-      to right,
-      rgba(243, 45, 5, 0.624),
-      rgba(28, 27, 27, 0.192)
-    ),
-    url("../images/watch.png"); */
-
-/* background-image: linear-gradient(
-      90deg,
-      #f15b22 0%,
-      rgba(241, 91, 34, 0) 100%
-    ),
-    url(/images/watch.png); */
+/* Watch gradient starts */
 .gradient {
   background-image: linear-gradient(
       to right,
@@ -219,8 +228,7 @@
   color: #f05a1f;
 }
 
-/* border-radius: 8px;
-} */
+/* Watch gradient ends */
 
 /* footer styles */
 .contact {
@@ -258,3 +266,4 @@
   color: #ffffff;
   margin-top: 20px;
 }
+/* footer ends */
